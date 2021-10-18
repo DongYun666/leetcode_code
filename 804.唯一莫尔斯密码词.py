@@ -17,3 +17,12 @@ class Solution:
         return len(ans)
 
 print(Solution().uniqueMorseRepresentations(["gin", "zen", "gig", "msg"]))
+print(1234567)
+print(1234567)
+print(1234567)
+print(1234567)
+print(1234567)
+print(1234567)
+print(1234567)
+print(1234567)
+print(1234567)
