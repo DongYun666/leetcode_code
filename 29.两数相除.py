@@ -11,6 +11,7 @@ class Solution:
         for i in range(31, -1, -1):
             # 2^i * b <= a 换句话说 a/b = 2^i + (a-2^i*b)/b
             if (b << i) <= a:
+                print(i)
                 res += 1 << i
                 a -= b << i
         return res if (dividend > 0) == (divisor > 0) else -res

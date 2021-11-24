@@ -30,6 +30,6 @@ def sunday_find(src, dst):
 
 if __name__ == "__main__":
     text = "here_examplfe_v_example"
-    pattern = "plea"
+    pattern = "h"
     pos = sunday_find(text, pattern)
     print(pos)

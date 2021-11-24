@@ -16,6 +16,8 @@ class Solution:
                 xor_x ^= x
         return [xor_x,xor_x^diff]
 
+print(Solution().singleNumber([1,1,2,3,4,4,3,5,2]))
+
 import functools
 def singleNumber(nums: List[int]) -> List[int]:
     ret = functools.reduce(lambda x, y: x ^ y, nums)
